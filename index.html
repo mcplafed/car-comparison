@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Сравнение четырёх Toyota Corolla Touring Sports: проверенные объявления, комплектации и прозрачный калькулятор обесценивания.">
+<meta name="referrer" content="no-referrer"><meta name="color-scheme" content="light">
+<title>Corolla — сравнение вариантов</title>
+<link rel="stylesheet" href="style.css"><script type="module" src="app.mjs"></script>
+</head>
+<body>
+<header><span class="eyebrow">ЛИСТ ВЫБОРА / TOYOTA COROLLA TOURING SPORTS</span><h1>Четыре машины.<br>Одинаковые вопросы.</h1><p class="intro">Цена, оснащение и стоимость выхода — рядом, без догадок об отсутствующих опциях.</p><p class="meta">Снимок объявлений: 23 ноября 2026 · Германия → предполагаемая продажа в Нидерландах</p></header>
+<main>
+<section class="controls" aria-label="Параметры владения"><label>Пробег в год, км<input id="annual" type="number" min="0" max="100000" step="1" value="20000"></label><label>Срок владения, лет<input id="years" type="number" min="1" max="10" step="1" value="4"></label><div class="legend"><span class="confirmed">Указано в источнике</span><span>— не подтверждено</span><span class="estimate">Расчёт / допущение</span></div></section>
+<p id="scenario-warning" class="notice" role="status">Диапазоны будущих цен ниже — ручные сценарии, а не прогноз рынка. Они не изменяются автоматически вслед за пробегом.</p>
+<p class="meta">На телефоне листайте таблицу вбок между машинами и вверх/вниз между параметрами.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Таблица сравнения; на телефоне листайте вбок"><table id="comparison"><caption>На телефоне таблицу можно листать вбок. Названия машин остаются сверху.</caption><thead></thead><tbody></tbody></table></div>
+<p id="error" role="alert" hidden></p>
+<section class="method"><h2>Как читать расчёт</h2><div class="method-grid"><div><h3>Факты ≠ проверка автомобиля</h3><p>Цена и комплектация взяты из публичных источников. Пробег, сервис и состояние остаются заявлениями продавца. Пустое поле аварийности не означает «без ДТП». Неуказанная опция не считается отсутствующей.</p></div><div><h3>Прогноз можно менять</h3><p>Будущая цена задаётся вручную. Исходные оценки для двух первых машин относятся к 4 годам и 20 000 км/год. Для двух добавленных машин цена продажи не придумана: введите собственный сценарий. При других параметрах скорректируйте цены вручную.</p></div><div><h3>Это не полная стоимость владения</h3><p>Обесценивание = цена покупки + введённые расходы на импорт − цена продажи. Ноль в поле импорта — не смета и не утверждение, что оформление бесплатно. Страховка, налог, топливо, ТО, ремонт и стоимость капитала не включены.</p></div><div><h3>Гарантия и модельный год</h3><p>Регистрация не равна году производства или модельному году. Гарантию Toyota в NL и отдельное покрытие гибридной батареи нужно проверять по актуальным условиям и истории конкретного автомобиля.</p><a href="https://www.toyota.nl/toyota-rijders/garantie/10jaargarantie" target="_blank" rel="noopener noreferrer">Условия Toyota NL ↗</a></div></div></section>
+<section class="sources"><h2>Проверки и оговорки по каждому варианту</h2><div id="source-notes"></div></section>
+</main><footer>Публичная сравнительная записка. Без аналитики, аккаунтов и передачи введённых значений на сервер. Не коммерческое предложение.<br><a href="https://github.com/mcplafed/car-comparison">Исходные данные и история изменений</a></footer>
+</body></html>

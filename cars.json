@@ -1,0 +1,30 @@
+[
+  {
+    "id":"arndt-2024","name":"Arndt 2024","price":25784,"mileage":37400,"registration":"2024-07","production":null,"power":196,"engine":"2.0 Hybrid","trim":"Team Deutschland","colour":"Mysticschwarz","seller":"Arndt Automobile","location":"Düsseldorf, Germany","owners":1,
+    "source":"https://suchen.mobile.de/fahrzeuge/details.html?id=40962094275872&vip=1",
+    "evidence":"https://www.autouncle.de/de/d/224533495-gebraucht-2024-toyota-corolla-team-196-ps",
+    "verification":"corroborated","checked":"2026-11-23","notes":"Цена и параметры подтверждены карточкой AutoUncle; прямое объявление mobile.de повторно не открылось. Отметка сервисной истории — заявление продавца, не независимая проверка.",
+    "features":{"service":true,"screen":null,"cluster":null,"heatedSeats":null,"heatedWheel":null,"camera":null,"parking":null,"blindSpot":null,"rearTraffic":null,"electricBoot":null,"hud":null,"jbl":null,"panorama":null},
+    "resaleLow":17000,"resaleHigh":20000,"scenarioNote":"Прежняя ориентировочная оценка частной продажи в NL через 4 года при 20 000 км/год. Не опубликованный прогноз и не дилерский выкуп."
+  },
+  {
+    "id":"hess-2025","name":"Hess 2025","price":29890,"mileage":13838,"registration":"2025-01","production":"2024-09-25","power":196,"engine":"2.0 Hybrid","trim":"Team D + Technik P","colour":"Precious Silver Metallic","seller":"CarUnion Hess GmbH","location":"Eisenach, Germany","owners":1,
+    "source":"https://www.toyota.de/gebrauchtwagen/pdp.toyota-corolla-touring-sports-2025-touring-sports-automatik-hybrid-76f6044f-8728-48b4-bd51-ed2419a38ecf",
+    "evidence":null,"verification":"official","checked":"2026-11-23","notes":"Первичная карточка Toyota. Регистрация в 2025 году не означает выпуск в 2025 году: производство 09/2024. История ДТП не подтверждена. Отсутствие опции в списке не означает её отсутствия в машине.",
+    "features":{"service":null,"screen":"10,5″","cluster":"12,3″","heatedSeats":null,"heatedWheel":null,"camera":true,"parking":"Спереди/сзади, автоматическое торможение","blindSpot":null,"rearTraffic":null,"electricBoot":null,"hud":null,"jbl":null,"panorama":null},
+    "resaleLow":19000,"resaleHigh":22000,"scenarioNote":"Ориентировочный сценарий частной продажи в NL через 4 года при 20 000 км/год. Не гарантия цены; не считать финансовый остаточный платёж прогнозом продажи."
+  },
+  {
+    "id":"mobile-51613743792544","name":"Seifert 2025","price":27000,"mileage":14000,"registration":"2025-07","production":null,"power":null,"powerNote":"2.0 Hybrid · 112 кВт / 152 л.с. в объявлении; системная мощность не подтверждена","engine":"2.0 Hybrid","trim":"Teamplayer","colour":"JUNIPER BLUE M.M. / Blau Metallic","seller":"AUTO-SEIFERT","location":"Hagen, Germany","owners":1,
+    "source":"https://suchen.mobile.de/fahrzeuge/details.html?id=51613743792544&utm_campaign=socialbuttons&utm_content=app_ios_vip&utm_medium=social&utm_source=com.apple.UIKit.activity.CopyToPasteboard",
+    "evidence":null,"verification":"provided","checked":"2026-11-23","notes":"Параметры взяты из полного текста объявления, предоставленного пользователем; повторная независимая загрузка mobile.de заблокирована (403). Продажа im Kundenauftrag — по поручению клиента: уточнить, кто продавец по договору и каковы условия заявленной гарантии. Продавец указывает сервисную историю, свежее ТО и HU/AU. В карточке и описании стоят 112 кВт / 152 л.с.; полная системная мощность гибрида не подтверждена — запросить CoC/VIN. Безаварийность не заявлена. Обобщённый Soundsystem не доказывает JBL; обогрев лобового стекла указан, но его тип не проверен.",
+    "features":{"service":true,"screen":"Сенсорный экран, размер не указан","cluster":null,"heatedSeats":true,"heatedWheel":true,"camera":true,"parking":"Передние/задние датчики и камера","blindSpot":true,"rearTraffic":"Указан Ausparkassistent, тип не уточнён","electricBoot":true,"hud":null,"jbl":null,"panorama":null},"resaleLow":null,"resaleHigh":null,"scenarioNote":"Оценка пока не подготовлена. Перед оценкой подтвердить системную мощность, историю и условия продажи. Можно ввести собственный диапазон."
+  },
+  {
+    "id":"toyota-2023","name":"Schnickers 2023","price":26992,"mileage":33333,"registration":"2023-11","production":"2023-09-21","power":196,"engine":"2.0 Hybrid","trim":"Team D: Technik Paket","colour":"Juniper Blue Metallic","seller":"Autohaus Schnickers Zwei GmbH","location":"Moers, Germany","owners":2,
+    "source":"https://www.toyota.de/gebrauchtwagen/pdp.toyota-corolla-touring-sports-2023-touring-sports-automatik-hybrid-a5971c7f-a14e-4c52-a1e5-1e256cc8fd07",
+    "evidence":null,"verification":"official","checked":"2026-11-23","notes":"Первичная карточка Toyota; поле аварийности не заполнено, поэтому безаварийность не подтверждена.",
+    "features":{"service":null,"screen":"10,5″","cluster":"12,3″","heatedSeats":true,"heatedWheel":true,"camera":true,"parking":null,"blindSpot":null,"rearTraffic":null,"electricBoot":null,"hud":null,"jbl":null,"panorama":null},
+    "resaleLow":null,"resaleHigh":null,"scenarioNote":"Оценка пока не подготовлена. Можно ввести собственный диапазон."
+  }
+]
