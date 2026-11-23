@@ -32,7 +32,7 @@ async function start() {
     const th = element('th');
     th.scope = 'col';
     th.dataset.car = car.id;
-    th.append(element('span', car.name, 'car-name'), element('span', car.verification === 'official' ? 'Первичный источник Toyota' : car.verification === 'corroborated' ? 'Подтверждено агрегатором' : 'Данные не подтверждены', 'car-sub'), link(car.source, 'Открыть объявление ↗'));
+    th.append(element('span', car.name, 'car-name'), element('span', car.verification === 'official' ? 'Первичный источник Toyota' : car.verification === 'corroborated' ? 'Подтверждено агрегатором' : car.verification === 'provided' ? 'Текст объявления от пользователя' : 'Данные не подтверждены', 'car-sub'), link(car.source, 'Открыть объявление ↗'));
     row.append(th);
   }
   head.append(row);
@@ -61,7 +61,7 @@ async function start() {
   addRow('Пробег сейчас', car => element('span', km(car.mileage), 'numeric'));
   addRow('Первая регистрация', car => date(car.registration));
   addRow('Производство', car => date(car.production));
-  addRow('Двигатель / мощность', car => car.engine && car.power ? `${car.engine} / ${car.power} л.с.` : '— не подтверждено');
+  addRow('Двигатель / мощность', car => car.engine && car.power ? `${car.engine} / ${car.power} л.с.` : car.powerNote ?? '— не подтверждено');
   addRow('Комплектация', car => car.trim ?? '— не подтверждено');
   addRow('Цвет по объявлению', car => car.colour ?? '— не подтверждено');
   addRow('Продавец / место', car => car.seller ? `${car.seller} · ${car.location ?? 'место не подтверждено'}` : '— не подтверждено');

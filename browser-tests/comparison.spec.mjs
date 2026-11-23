@@ -12,6 +12,8 @@ test('compares four listings and recalculates mileage without inventing unknown 
   await page.getByLabel('Расходы на импорт и оформление, € — Arndt 2024').fill('1000');
   await expect(page.locator('[data-loss="arndt-2024"]')).toContainText('6 784');
   await expect(page.getByText('не подтверждено', {exact:false}).first()).toBeVisible();
+  await expect(page.locator('[data-car="mobile-51613743792544"]')).toContainText('Текст объявления');
+  await expect(page.getByText('2.0 Hybrid · 112 кВт / 152 л.с. в объявлении; системная мощность не подтверждена', {exact:true})).toBeVisible();
   await page.setViewportSize({width:390,height:844});
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({path:'artifacts/mobile.png',fullPage:true});

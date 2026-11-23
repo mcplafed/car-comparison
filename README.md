@@ -34,4 +34,4 @@ GitHub Pages uses the Actions workflow. Only `index.html`, `style.css`, `app.mjs
 
 ## Updating evidence
 
-Keep original listing IDs and URLs unchanged. Record the evidence-check date. Use `null` for unknown facts, including accident history and omitted equipment. Do not infer equipment solely from package names, first-registration year or power output. Do not commit VINs, personal contact details, chat metadata, credentials or private buyer information.
+Keep original listing IDs and URLs unchanged. Record the evidence-check date. A `provided` verification status means a user supplied the public listing text and the live page was not independently accessible; display that distinction. Preserve listed engine output separately from unconfirmed hybrid system output. Flag consignment wording without making unsupported legal conclusions. Use `null` for unknown facts, including accident history and omitted equipment. Do not infer equipment solely from package names, first-registration year or power output. Do not commit VINs, personal contact details, chat metadata, credentials or private buyer information.
